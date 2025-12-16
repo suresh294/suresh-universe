@@ -1,0 +1,51 @@
+export const certifications = [
+  
+{
+  title: "Full Stack Development Masterclass",
+  org: "NoviTech",
+  year: "2024",
+  desc: "Gained end-to-end full stack development knowledge covering frontend, backend, databases, and deployment with practical project exposure.",
+},
+{
+  title: "GenAI Job Simulation",
+  org: "Forage",
+  year: "2025",
+  desc: "Completed hands-on GenAI tasks including data extraction, analysis, and development of an AI-powered financial chatbot, demonstrating practical AI application skills.",
+},
+
+{
+  title: "Solutions Architecture Job Simulation",
+  org: "Forage",
+  year: "2025",
+  desc: "Designed a simple and scalable system architecture focusing on hosting, performance, and reliability, showcasing system design and architectural thinking.",
+},
+{
+  title: "Prompt Engineering Bootcamp",
+  org: "LetsUpgrade",
+  year: "2024",
+  desc: "Learned effective prompt design techniques for generative AI models to improve accuracy, efficiency, and real-world AI interaction outcomes.",
+},
+{
+  title: "Java Intermediate Certification",
+  org: "SoloLearn",
+  year: "2023",
+  desc: "Strengthened core Java concepts including OOP principles, exception handling, collections, and intermediate-level programming practices.",
+},
+{
+  title: "JavaScript Programming",
+  org: "GUVI",
+  year: "2023",
+  desc: "Learned JavaScript fundamentals including DOM manipulation, events, functions, and asynchronous programming for interactive web applications.",
+}
+
+];
+
+export const skills = [
+  { name: "Java (Core & Advanced)", level: 90 },
+  { name: "C & C++", level: 85 },
+  { name: "ReactJS", level: 80 },
+  { name: "HTML, CSS, JS", level: 95 },
+  { name: "Arduino & IoT", level: 88 },
+  { name: "SQLite / MySQL", level: 82 },
+  { name: "Problem Solving & DSA", level: 87 },
+];

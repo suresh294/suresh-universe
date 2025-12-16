@@ -1,0 +1,14 @@
+{
+  "name": "Suresh Kumar A",
+  "role": "3rd Year Computer Science Student",
+  "bio": "I build IoT devices and Java applications. Passionate about embedded systems, AI-assisted accessibility projects, and clean code.",
+  "skills": [
+    "Java",
+    "IoT",
+    "ESP32",
+    "React",
+    "Three.js"
+  ],
+  "email": "suresharumugam020@gmail.com",
+  "phone": "8379303993"
+}
