@@ -2,7 +2,9 @@
 
 [![CI](https://github.com/suresh294/suresh-universe/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/suresh294/suresh-universe/actions/workflows/ci.yml)
 
-A Vite + React portfolio starter for presenting projects, skills, a resume, and contact information through a dark, space-inspired interface. The project includes animated navigation, a 3D scene, and a local JSON-based profile configuration.
+A Vite + React portfolio website for presenting projects, skills, a resume, and contact information through a dark, space-inspired interface. The project includes animated navigation, a 3D scene, and a local JSON-based profile configuration.
+
+**Portfolio site:** [sureshporfolio.netlify.app](https://sureshporfolio.netlify.app)
 
 ## Features
 
