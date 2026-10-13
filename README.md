@@ -1,18 +1,52 @@
-Suresh-Universe — React Starter (Dark Galaxy, Scroll Navigation, TTS Intro)
+# Suresh Universe — Interactive Developer Portfolio
 
-This starter project is an opinionated base for your "AI-Driven Developer Universe" portfolio. It includes a Vite + React setup with placeholders and components for:
-- Landing (TTS intro + Enter button)
-- 3D Planet Scene (React Three Fiber placeholder)
-- About, Projects, AI Chat (local JSON), Resume, Contact
-- Navbar + scroll-based navigation
-- Framer Motion animations
+[![CI](https://github.com/suresh294/suresh-universe/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/suresh294/suresh-universe/actions/workflows/ci.yml)
 
-Quick setup:
+A Vite + React portfolio starter for presenting projects, skills, a resume, and contact information through a dark, space-inspired interface. The project includes animated navigation, a 3D scene, and a local JSON-based profile configuration.
 
-1. Install dependencies:
-   npm install
+## Features
 
-2. Run dev server:
-   npm run dev
+- Landing experience with an introductory flow.
+- React-based portfolio sections for about, projects, resume, and contact.
+- 3D scene built with React Three Fiber and Drei.
+- Motion effects using Framer Motion and React Spring.
+- Profile content configured in `src/data/profile.json`.
+- EmailJS dependency available for contact-form integration; configure its required public identifiers before relying on email delivery.
 
-Edit src/data/profile.json to customize your profile.
+## Technology Stack
+
+- React and Vite
+- Three.js, React Three Fiber, and Drei
+- Framer Motion and React Spring
+- React Router
+- EmailJS browser SDK
+
+## Run Locally
+
+Prerequisites: Node.js 22 or a compatible version for the installed Vite toolchain, plus npm.
+
+```bash
+git clone https://github.com/suresh294/suresh-universe.git
+cd suresh-universe
+npm ci
+npm run dev
+```
+
+Open the local URL printed by Vite.
+
+## Build
+
+```bash
+npm run build
+npm run preview
+```
+
+A GitHub Actions workflow runs the production build on pushes and pull requests targeting `main`.
+
+## Configuration and Privacy
+
+Update `src/data/profile.json` with your own portfolio details before publishing. Review all contact fields and resume assets before making the site public. Keep API keys and other secrets out of client-side code; browser-delivered environment values are not secret.
+
+## Repository
+
+[View Suresh Universe on GitHub](https://github.com/suresh294/suresh-universe)
